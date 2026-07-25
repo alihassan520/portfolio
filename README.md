@@ -38,6 +38,17 @@ portfolio/
 2. Run: `python -m http.server 8000`
 3. Open your browser and go to: `http://127.0.0.1:8000`
 
+### Option 2: Publish on GitHub Pages
+1. Create a GitHub repository for this project
+2. Push all files to GitHub
+3. In GitHub, go to **Settings > Pages**
+4. Under **Source**, choose **GitHub Actions**
+5. The workflow in `.github/workflows/deploy.yml` will publish your site automatically
+6. After deployment finishes, your site will be available at:
+   `https://your-username.github.io/your-repository-name/`
+
+> Important: If your repository name is `portfolio`, your site URL will be `https://your-username.github.io/portfolio/`
+
 ### Option 2: Direct File
 Simply double-click `index.html` to open it in your default browser.
 
